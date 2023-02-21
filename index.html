@@ -12,19 +12,21 @@
   <div class="container">
     <header class="cabecalho">
       <div class="perfil">
-        <img class="perfil-foto" src="https://pps.whatsapp.net/v/t61.24694-24/169580859_398489065738233_1151779400012417037_n.jpg?ccb=11-4&oh=01_AVxS_HjW2XP-vJ71Xd6zzM2a3EkOHOUaN16m2cp0tcSNXg&oe=633417BB" />
+        <img class="perfil-foto" src="https://scontent.fssa2-1.fna.fbcdn.net/v/t31.18172-8/13653366_10206892955866726_2239814920490167584_o.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cdbe9c&_nc_eui2=AeGRTW5ijMkYMVRkdRE2EO4r4mWaWC1tQjDiZZpYLW1CMBh3itJYVCDnyX4fLSu-BWymcHy9DPG2F527k8hbwCQI&_nc_ohc=2LhVLLMqVY4AX-6lqHY&_nc_ht=scontent.fssa2-1.fna&oh=00_AfCkWic_BGqqSYNGhFhieUNgaUrO-noFbBf5yWNiuJ33Kg&oe=641CD7D4" />
         <div class="titulo">
           <h1> Tiago Santos </h1>
           <h3> Estudante de Analise e Desenvolvimento de Sistemas # ImersãoDEV </h3>
 
-          <a href="CSS 4/index.html"> Barbearia </a>
-          <br>
+          <nav>
+          <ul>
+            <li> Portifolios: </li>
+            <li><a href="CSS 4/index.html"> Barbearia </a></li>
+            <li><a href="Alessandra/PortifolioAle.html"> Alessandra </a></li>
+            <li><a href="Alego/index.html"> Alego</a></li>
+          </ul>
+        </nav>
 
-          <a href="Alessandra/PortifolioAle.html"> Alessandra </a>
-
-           <br>
-
-          <a href="Alego/index.html"> Alego</a>
+          
 
         </div>
       </div>
@@ -169,6 +171,31 @@ body {
 .dark .tema button{
    background: #1C1C1C
    color: #FFFFFF;
+}
+nav {
+  position: absolute;
+  top: 120px;
+  right: 100px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+  color: red;
+  font-size: 22px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #C78C19;
+  text-decoration: underline;
 }
 
   </style>
